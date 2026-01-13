@@ -1,5 +1,5 @@
-Description
-Projet visant à protéger un système OTP contre les abus via des solutions DevOps et côté infrastructure.
+Description Projet 
+visant à protéger un système OTP contre les abus via des solutions DevOps et côté infrastructure.
 
 Problème de sécurité
 Le système OTP est abusé par des bots, ce qui provoque :
