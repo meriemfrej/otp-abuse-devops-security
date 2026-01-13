@@ -9,7 +9,7 @@ Choix : Nginx
  Où implémenter le rate limiting ?
 - Au plus proche de l’entrée (edge): reverse proxy (Nginx), API Gateway ou WAF, avant l’application et avant l’appel au fournisseur SMS, afin de stopper les bots tôt et réduire les coûts. 
 - Idéalement 'en couches':
-  - WAF/CDN (filtrage bots, règles L7),
+  - WAF/CDN (filtrage bots),
   - API Gateway/Proxy (quotas/rate limiting),
   - puis application
 
